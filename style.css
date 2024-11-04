@@ -140,3 +140,32 @@ ul {
     border-radius: 15px;
     border: #3882F6 5px solid;
 }
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+    width: 100vw;
+    text-align: left;
+}
+
+.quote-text {
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.quote-text b {
+    font-weight: bold;
+    font-size: 24px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: flex-end;
+
+}
